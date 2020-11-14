@@ -2,7 +2,7 @@
 
 ## Problema
 O calculo da média do curso é realizado de forma distinta em função do tipo de estudante (normal, worker, extern)
-Solução Comum:
+## Solução Comum:
 - Uso de um atributo Type do tipo enumerado
 ```java
 public class Student {
