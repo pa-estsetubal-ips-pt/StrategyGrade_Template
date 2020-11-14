@@ -1,6 +1,6 @@
 # Aula sobre o pattern Strategy
 
-##Problema
+## Problema
 O calculo da média do curso é realizado de forma distinta em função do tipo de estudante (normal, worker, extern)
 Solução Comum:
 - Uso de um atributo Type do tipo enumerado
