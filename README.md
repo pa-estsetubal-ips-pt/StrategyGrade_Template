@@ -19,7 +19,7 @@ public class Student {
         /....
     }
 ```
-O método que impelmenta o calculo da nota final usa uma estrutura switch case para diferenciar o tipo de calculo a fazer.
+O método que implementa o calculo da nota final usa uma estrutura switch case para diferenciar o tipo de calculo a fazer.
 ```java
 
     public float calculateFinalGrade()    {
