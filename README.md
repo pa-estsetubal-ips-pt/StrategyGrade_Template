@@ -52,8 +52,8 @@ O método que implementa o calculo da nota final usa uma estrutura switch case p
 - Difinir a interface Strategy
 - Implementar as classes que a instanciam (um por cada tipo)
 - Alterar a classe Student, substituindo o atributo type por um atributo strategy
-- Redefinir o metodo calculateFinalGrade, delegando o calculo à estretegia em "vigor".
-- Correr o método main 
+- Redefinir o metodo calculateFinalGrade, delegando o calculo à estratégia atualmente instanciada.
+
 ![strategy](images/UMLStrategy.PNG)
 
 ## Exercícios
