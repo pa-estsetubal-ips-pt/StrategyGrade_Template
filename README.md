@@ -2,7 +2,8 @@
 
 ## Problema
 O calculo da média do curso é realizado de forma distinta em função do tipo de estudante (normal, worker, extern)
-## Solução Comum:
+
+### Solução Comum:
 - Uso de um atributo Type do tipo enumerado
 ```java
 public class Student {
@@ -47,7 +48,7 @@ O método que impelmenta o calculo da nota final usa uma estrutura switch case p
 - Se as regras de passagem dos estudantes também variar em função do seu tipo, o que acontece?
 - Usarmos o polimorfismo seria uma boa solução para resolver este problema?
 
-## Aplicação do Padrão Strategy
+### Aplicação do Padrão Strategy
 - Difinir a interface Strategy
 - Implementar as classes que a instanciam (um por cada tipo)
 - Alterar a classe Student, substituindo o atributo type por um atributo strategy
@@ -55,7 +56,7 @@ O método que impelmenta o calculo da nota final usa uma estrutura switch case p
 - Correr o método main 
 ![strategy](images/UMLStrategy.PNG)
 
-## Questões
+## Exercícios
  - Adicione um novo tipo de estrategia de calculo da nota final  : INTERNACIONAL, em que a nota é calcula no modo do estudante do work, mas convertida na seguinte escala.
     - 5 Nota superior a 18
     - 4 Nota superior a 15
